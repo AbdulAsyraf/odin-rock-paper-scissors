@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    color: chocolate;
+    background-color: beige;
+}
+
+.score {
+    display: flex;
+    justify-content: space-around;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.player {
+    display: flex; 
+    gap: 24px;
+}
+
+.game {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+    background-color: cadetblue;
+}
+
+button {
+    padding: 80px;
+    border-radius: 30px;
+    background-color: antiquewhite;
+    font-size: xx-large;
+    font-weight: 900;
+}
